@@ -1,10 +1,16 @@
 header {
   background-color: #e24647;
+  display: flex;
+  justify-content: space-between;
 }
 
 h1 {
   font-size: 40px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+nav {
+  margin: auto 0;
 }
 
 h1,
