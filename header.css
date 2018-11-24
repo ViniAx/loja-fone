@@ -1,0 +1,17 @@
+header {
+  background-color: #e24647;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h1,
+a {
+  color: #fff;
+}
+
+a {
+  font-size: 21px;
+  text-decoration: none;
+}
