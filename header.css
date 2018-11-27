@@ -23,3 +23,14 @@ a {
   color: inherit;
   margin-left: 60px;
 }
+
+button {
+  width: 199px;
+  height: 60px;
+  color: #fff;
+  font-family: Arial, "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  background-color: #252c41;
+  border: none;
+}
