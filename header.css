@@ -33,4 +33,5 @@ button {
   line-height: 20px;
   background-color: #252c41;
   border: none;
+  cursor: pointer;
 }
