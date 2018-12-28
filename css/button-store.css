@@ -1,0 +1,70 @@
+.buttons {
+  margin-bottom: 30px;
+}
+.button-store {
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #252c41;
+  font-size: 20px;
+  color: #fff;
+  font-family: Arial, "Roboto", sans-serif;
+  width: 200px;
+  height: 60px;
+  margin-right: 0;
+  line-height: 60px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 300ms linear;
+}
+
+.button-store:hover {
+  background-color: #fff;
+  color: #e24647;
+}
+
+.button-store.-seccond {
+  background-color: transparent;
+  border: 2px solid #fff;
+  width: 218px;
+  line-height: 56px;
+  margin-right: 38px;
+}
+
+.button-store.-seccond:hover {
+  background-color: #fff;
+  color: #e24647;
+}
+.button-store:active {
+  transform: scale(0.9);
+}
+
+.button-store > button,
+.button-store > a {
+  font-size: inherit;
+  background: inherit;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .button-store.-seccond {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 470px) {
+  .button-store,
+  .button-store.-seccond {
+    display: block;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .button-store.-seccond {
+    margin-bottom: 20px;
+  }
+}
