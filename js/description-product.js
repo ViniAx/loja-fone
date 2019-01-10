@@ -6,7 +6,7 @@ $heart.addEventListener("click", handleClick);
 
 $stars.forEach(function($star, key) {
   if (key >= 0) {
-    $star.addEventListener("click", function() {
+    $star.addEventListener("click", () => {
       middleStar(key);
     });
   }
