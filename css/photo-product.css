@@ -11,7 +11,7 @@
 .photo-product::before {
   content: "";
   background-color: #fff;
-  width: 300px;
+  width: 50vw;
   height: 554px;
   position: absolute;
   left: 0;
@@ -34,6 +34,10 @@
     margin-right: 0;
     margin-bottom: 30px;
     border-radius: 0;
+  }
+
+  .photo-product::before {
+    display: none;
   }
 }
 
